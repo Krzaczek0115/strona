@@ -2,17 +2,17 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Strona o 2145</title>
+        <title>Strona Krzaka</title>
         <!-- OPIS STRONY -->
         <meta name="description" content="Strona na Tworzenie stron i aplikacji internetowych">
         <!-- SŁOWA KLUCZE (PRZY WYSZUKIWANIU) -->
         <meta name="keywords" content="HTML, CSS">
         <!-- AUTOR STRONY -->
-        <meta name="author" content="Krzaczek">
+        <meta name="author" content="Piotr Kabat">
     </head>
 
     <body>
-        <!-- <BR> TO JEST ENTER (PRZEŁAMANIE TEKSTU), <H1 - H4> RODZAJE NAGŁÓWKÓW, <P> TO ZWYKŁY TEKST -->
+        <!-- <BR> TO JEST ENTER (PRZEŁAMANIE TEKSTU), <H1-H4> RODZAJE NAGŁÓWKÓW, <P> TO ZWYKŁY TEKST -->
         <br><br><br>
         <h1>Zadanie 1</h1>
         <p>"utwórz prostą stronę html z kilkoma nagłówkami a następnie umieść na darmowym serwerze"</p>
@@ -89,17 +89,25 @@
         <p>"Utwórz stronę z 4 akapitami, każdy w innym kolorze i innej notacji koloru. Utwórz linki - zwykły, do wybranego elementu na stronie, otwierany w osobnej zakładce oraz linkującą grafikę."</p>
         <br><br><br>
 
-        <!-- ZMIANA TŁA ZA POMOCĄ NAZWY KOLORU -->
-        <p style="background: orangered;">Kolorowe<br>"Tło</p>
-        <!-- ZMIANA KOLORU TEKSTU ZA POMOCA HEX -->
-        <p style="color: #8B0000;">Kolorowy<br>Tekst</p>
-        <!-- ZMIANA KOLORU TEKSTU ZA POMOCA RGA I ZMIANA KOLORU TŁA ZA POMOCĄ HSL -->
-        <p style="background: rgb(75, 0, 130); color: hsl(150, 100%, 50%);">Kolorowy Tekst<br>i<br>Kolorowe Tło</p>
 
-        <br><br><br>
-        <h1>Zadanie 4</h1>
-        <p>"utwórz stronę zawierającą poprawne wpisy meta oraz title"</p>
-        <br><br><br>
+        <h1>Czerwony Tekst</h1>
+        <p style="color: Red;">Czerwony Tekst [Red]</p>
+        <p style="color: #FF0000;">Czerwony Tekst [#FF0000]</p>
+        <p style="color: rgb(255, 0, 0);">Czerwony Tekst [rgb(255, 0, 0)]</p>
+        <p style="color: hsl(0, 100%, 50%);">Czerwony Tekst [hsl(0, 100%, 50%)]</p>
+
+        <h1>Zielone Tło</h1>
+        <p style="background: LimeGreen;">Zielone Tło [LimeGreen]</p>
+        <p style="background: #32CD32;">Zielone Tło [#32CD32]</p>
+        <p style="background: rgb(50, 205, 50);">Zielone Tło [rgb(50, 205, 50)]</p>
+        <p style="background: hsl(120, 76%, 50%);">Zielone Tło [hsl(120, 76%, 50%)]</p>
+
+        <h1>Fioletowe Tło i Zółty Tekst</h1>
+        <p style="background: RebeccaPurple; color: Gold;">Fioletowe Tło [RebeccaPurple] i Zółty Tekst [Gold]</p>
+        <p style="background: #663399; color: #FFD700;">Fioletowe Tło [#663399] i Zółty Tekst [#FFD700]</p>
+        <p style="background: rgb(102, 51, 153); color: rgb(255, 215, 0);">Fioletowe Tło [rgb(102, 51, 153)] i Zółty Tekst [rgb(255, 215, 0)]</p>
+        <p style="background: hsl(270, 67%, 40%); color: hsl(51, 100%, 50%);">Fioletowe Tło [hsl(270, 67%, 40%)] i Zółty Tekst [hsl(51, 100%, 50%)]</p>
+
 
         <a href="https://youtube.com">Link Zwykły</a>
         <!-- ODNOSNIK DO FRAGMENTU STRONY TO SAMO CO PRZY KORDIANIE -->
@@ -107,8 +115,18 @@
         <!-- <TARGET="_BLANK"> OTWIERA STRONE W NOWEJ KARCIE -->
         <a href="https://facebook.com" target="_blank">Link otwierający stornę w nowym oknie</a>
         <!-- OTWIERA OBRAZEK W NOWEJ KARCIE -->
-        <a href="farcry.png" target="_blank">Link otwieraący obraz farcry.png w nowym oknie</a>
-    
-    </body>
+        <a href="images/farcry.png" target="_blank">Link otwieraący obraz farcry.png w nowym oknie</a>
 
-</html>
+        <br><br><br>
+        <h1>Zadanie 6</h1>
+        <p>"..."</p>
+        <br><br><br>
+
+        <!-- OKNO STRONY O NAZWIE NAME="PAGE" SCR = ZRÓDŁO STRONY, WIDTH = SZEROKOŚĆ NA CAŁĄ STRONĘ, HEIGHT = 480PIKSELI, STYLE="DO RAMKI" -->
+        <iframe name="Page" src="https://htmlcolorcodes.com/" width="100%" height="480" style="border:3px solid black;"></iframe>
+        <!--  LINKI ODNOSZĄS IĘ DO IFRAME ZA POMOCĄ TARGET="Page" -->
+        <a href="https://www.image-map.net/" target="Page">Link Do Strony 1</a>
+        <a href="https://htmlcolorcodes.com/" target="Page">Link Do Strony 2</a>
+        <a href="https://upload.wikimedia.org/wikipedia/commons/3/32/Googleplex_HQ_%28cropped%29.jpg" target="Page">Link Do Zdjęciua</a>
+
+    </body>
